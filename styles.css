@@ -201,6 +201,15 @@ nav ul li:last-child {
     height: auto; /* Maintain aspect ratio */
 }
 
+.subsection-title {
+    font-size: 1.25rem;
+    margin: 2rem auto 1rem auto;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    border-bottom: 2px solid #ccc;
+    width: fit-content; /* Shrinks to the width of the text */
+}
+
 
 footer {
     background-color: #333;
