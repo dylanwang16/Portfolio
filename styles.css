@@ -138,6 +138,7 @@ nav ul li:last-child {
     width: 50%; /* Set the width of the VIP logo image */
     height: auto; /* Maintain aspect ratio */
     margin-right: 20px; /* Space between image and text */
+    border-radius: 5%;
 }
 
 .project-text {
@@ -183,6 +184,7 @@ nav ul li:last-child {
     width: 50%; /* Adjust the image size */
     height: auto; /* Maintain aspect ratio */
     margin-right: 20px; /* Optional: round the corners */
+    border-radius: 5%;
 }
 
 .experience-text {
@@ -192,16 +194,17 @@ nav ul li:last-child {
 
 .experience-img-container {
     display: flex; /* Use flexbox for layout */
-    justify-content: space-between; /* Ensure even spacing between images */
+    justify-content: center; /* Ensure even spacing between images */
     align-items: center; /* Vertically align images */
-    gap: 20px; /* Add space between images */
-    max-width: 70%; /* Increase the container width */
-    margin: 20px auto; /* Center the container horizontally */
+    gap: 24px; /* Add space between images */
+    margin: 40px auto; /* Center the container horizontally */
 }
 
 .experience-img {
-    width: 48%; /* Make images larger while fitting side by side */
+    width: 30%; /* Make images larger while fitting side by side */
     height: auto; /* Maintain aspect ratio */
+    object-fit: cover;
+    border-radius: 5%;
 }
 
 .subsection-title {
@@ -209,6 +212,13 @@ nav ul li:last-child {
     margin: 2rem auto 1rem auto;
     padding-bottom: 0.5rem;
     text-align: center;
+}
+
+.section-divider {
+    width: 60%;
+    margin: 50px auto;
+    border: none;
+    border-top: 2px solid #ccc;
 }
 
 
